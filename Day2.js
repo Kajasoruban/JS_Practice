@@ -107,11 +107,11 @@ console.log(str.match(/a/gi));
 
 // 24.Use concat() and merge '30 Days of' and 'JavaScript' to a single string, 'learn Javascript'
 
-console.log(str.concat(' 30 Days of',' JavaScript'))
+console.log(str.concat(' 30 Days of',' JavaScript'));
 
 // 25.Use repeat() method to print learn Javascript 2 times
 
-console.log(str.repeat(2))
+console.log(str.repeat(2));
 
 
 

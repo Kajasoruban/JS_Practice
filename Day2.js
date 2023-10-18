@@ -28,7 +28,7 @@ console.log(challenge.slice("Days Of JavaScript"));
 
 // 8.Check if the string contains a word Script using includes() method
 
-console.log(challenge.includes());
+console.log(challenge.includes("Script"));
 
 // 9.Split the string into an array using split() method
 

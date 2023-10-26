@@ -15,6 +15,25 @@ function age() {
     console.log("error");
 }
 
+// q3
+
+let a = 5;
+let b = 4;
+a>b ? console.log(a+" is greater than "+b):console.log(a+" is less than "+b);
+
+// q4
+
+let score= 75;
+
+score>=80? console.log('A'):
+score>=70? console.log('B'):
+score>=60? console.log('C'):
+score>=50? console.log('D'):
+score>=0? console.log('F'):
+console.log('Invalid Score');
+
+
+
 // q5
 
 function season(){
@@ -47,4 +66,24 @@ function season(){
 
 }
 
+
+// q8
+
+var dev= 'html';
+dev=dev.toUpperCase()
+
+switch (dev) {
+  case 'HTML':
+  case 'CSS':
+  case 'JAVASCRIPT':
+  console.log('front-end');
+  break;
+   case 'NODEJS':
+   case 'ExpressJS':
+   console.log('Backend');
+   break;
+   default:
+   console.log("Not in lis");
+  
+  }
 

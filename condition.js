@@ -16,12 +16,17 @@ function age() {
 }
 
 // q3
+function greater() {
 
 let a = 5;
 let b = 4;
 a>b ? console.log(a+" is greater than "+b):console.log(a+" is less than "+b);
 
+}
+
 // q4
+
+function score() {
 
 let score= 75;
 
@@ -32,6 +37,7 @@ score>=50? console.log('D'):
 score>=0? console.log('F'):
 console.log('Invalid Score');
 
+}
 
 
 // q5
@@ -69,6 +75,8 @@ function season(){
 
 // q8
 
+function dev() {
+
 var dev= 'html';
 dev=dev.toUpperCase()
 
@@ -87,3 +95,4 @@ switch (dev) {
   
   }
 
+}

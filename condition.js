@@ -149,55 +149,84 @@ console.log(perimeterOfRectangle(5,4));
 
 //q6
 
-function volumeOfRectPrism(length,width,height) {
-    let volume = length * width * height;
-    return 'volume is '+volume;
-}
+// function volumeOfRectPrism(length,width,height) {
+//     let volume = length * width * height;
+//     return 'volume is '+volume;
+// }
 
-console.log(volumeOfRectPrism(4,4,4));
+// console.log(volumeOfRectPrism(4,5,6));
+
+
+//or1
+
+let volumeOfRectPrism =(length,width,height) => 'volume is '+length * width * height;
+console.log(volumeOfRectPrism(5,6,7));
 
 //q7
 
-function areaOfCircle(r) {
-    let area = Math.PI * r * r ;
-    return 'area of circle is '+area;
-}
+// function areaOfCircle(r) {
+//     let area = Math.PI * r * r ;
+//     return 'area of circle is '+area;
+// }
+// console.log(areaOfCircle(3));
+
+//or2
+
+let areaOfCircle=(r)=>'area of circle is '+Math.PI * r * r ;
 console.log(areaOfCircle(3));
 
 //q8
 
-function circumOfCircle(r) {
-    let circumference = 2*Math.PI*r;
-    return 'circumference is '+circumference;
-}
+// function circumOfCircle(r) {
+//     let circumference = 2*Math.PI*r;
+//     return 'circumference is '+circumference;
+// }
 
+// console.log(circumOfCircle(5));
+
+//or3
+
+let circumOfCircle=(r)=>'circumference is '+2*Math.PI*r;
 console.log(circumOfCircle(5));
 
 //q9
 
-function convertCelsiusToFahrenheit(oC) {
-    let oF = (oC * 9/5) + 32 ;
-    return oF+'°F';
-}
+// function convertCelsiusToFahrenheit(oC) {
+//     let oF = (oC * 9/5) + 32 ;
+//     return oF+'°F';
+// }
 
+// console.log(convertCelsiusToFahrenheit(30));
+
+//or4
+
+let convertCelsiusToFahrenheit=(oC)=>(oC * 9/5) + 32 +'°F';
 console.log(convertCelsiusToFahrenheit(30));
 
 //q10
 
-function  bmi(weight,height) {
-    let  bmi = weight / (height * height);
-    // let bmi = 30;
-    let output = null;
-    // return bmi;
-    18.5>bmi ? output ='Underweight':
-    24.9>bmi ? output ='Normalweight':
-    29.9>bmi ? output ='Overweight':
-    output = 'Obese';
-    return output;
+// function  bmi(weight,height) {
+//     let  bmi = weight / (height * height);
+//     // let bmi = 30;
+//     let output = null;
+//     // return bmi;
+//     18.5>bmi ? output ='Underweight':
+//     24.9>bmi ? output ='Normalweight':
+//     29.9>bmi ? output ='Overweight':
+//     output = 'Obese';
+//     return output;
 
-}
+// }
+
+// console.log(bmi(60,1.7));
+
+//or5
+
+let bmi=(weight,height) => 18.5>(weight / (height * height) ) ? 'Underweight': 
+    24.9>(weight / (height * height)) ? 'Normalweight':29.9>(weight / (height * height) ) ? 'Overweight': 'Obese';
 
 console.log(bmi(60,1.7));
+
 
 // The same groups apply to both men and women.
 // Underweight: BMI is less than 18.5

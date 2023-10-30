@@ -57,8 +57,16 @@
 // numb.reverse();
 // console.log(numb);
 
+// array won't be equal or strict equal to another array with same value but will be equal if we assign same array to that variable
 
+// let d =5;
+// let hi=()=>{var d=10;  console.log(d)};
+// hi();
+// console.log(d);
 
+let f=[1,2,3];
+let g=f;
+console.log(f===g);
 
 
 

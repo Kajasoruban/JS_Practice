@@ -222,10 +222,12 @@ console.log(convertCelsiusToFahrenheit(30));
 
 //or5
 
-let bmi=(weight,height) => 18.5>(weight / (height * height) ) ? 'Underweight': 
-    24.9>(weight / (height * height)) ? 'Normalweight':29.9>(weight / (height * height) ) ? 'Overweight': 'Obese';
+let bmi=(weight,height)=>{ bm1=weight / (height * height); return 18.5>bm1? 'Underweight':
+24.9>bm1 ? 'Normalweight':29.9>bm1 ? 'Overweight': 'Obese';}
 
 console.log(bmi(60,1.7));
+
+
 
 
 // The same groups apply to both men and women.

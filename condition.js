@@ -40,6 +40,26 @@
 
 // // }
 
+// function mR() {
+//     let m=prompt('enter your marks');
+//     if(m>=0 && m<=100){
+
+//         if(m>=80){return 'A'}
+//         else if (m>=70){return 'B'}
+//         else if (m>=60){return 'C'}
+//         else if (m>=50){return 'D'}
+//         else{return 'F'}
+//     }
+//     else {return 'Invalid number'};
+// }
+
+// let mR =()=> {let m=prompt('enter your marks'); 
+//              return m>=0 && m<=100?(m>=80)?'A':(m>=70)?'B':(m>=60)?'C':(m>=50)?'D':'F':'Invalid number';
+// }
+
+
+// document.getElementById('fun7').innerHTML=mR();
+
 
 
 
@@ -75,7 +95,7 @@
 
 // // }
 
-
+/*
 let month = prompt("enter the month");
     
 
@@ -84,61 +104,11 @@ let month = prompt("enter the month");
     (month.match(/march/i)||month.match(/april/i)||month.match(/may/i))?console.log("Spring"):
     (month.match(/june/i)||month.match(/july/i)||month.match(/august/i))?console.log("Summer"):
     console.log("Enter a valid month");
-
-
-// //q6
-
-
-
-// // q8
-
-// function dev() {
-
-// var dev= 'html';
-// dev=dev.toUpperCase()
-
-// switch (dev) {
-//   case 'HTML':
-//   case 'CSS':
-//   case 'JAVASCRIPT':
-//   console.log('front-end');
-//   break;
-//    case 'NODEJS':
-//    case 'ExpressJS':
-//    console.log('Backend');
-//    break;
-//    default:
-//    console.log("Not in lis");
-  
-//   }
-
-// }
-
-// function mR() {
-//     let m=prompt('enter your marks');
-//     if(m>=0 && m<=100){
-
-//         if(m>=80){return 'A'}
-//         else if (m>=70){return 'B'}
-//         else if (m>=60){return 'C'}
-//         else if (m>=50){return 'D'}
-//         else{return 'F'}
-//     }
-//     else {return 'Invalid number'};
-// }
-
-// let mR =()=> {let m=prompt('enter your marks');
-//   return m>=0 && m<=100? 
-//     (m>=80)?'A':(m>=70)?'B'
- 
- 
- 
- 
- 
-//   :'Invalid number'
-// }
+*/
 
 
 
 
-// document.getElementById('fun7').innerHTML=mR();
+
+
+

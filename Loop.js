@@ -51,6 +51,7 @@
 
 // 6.Find Odd number between two numbers m,n 
 
+
 // let m=2,n=10;
 
 
@@ -58,6 +59,7 @@
     
 //   if(i%2!=0){
 //     console.log(i);
+
 //   }
   
 // }
